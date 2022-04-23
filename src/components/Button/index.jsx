@@ -1,12 +1,10 @@
 //Style
 import { ButtonStyle } from "./styles";
 
-const Button = () => {
+const Button = ({ children }) => {
   return (
     <ButtonStyle>
-      <button className="btn btn-lg btn-block">
-        <span>Finalizar Pedido</span>
-      </button>
+      <button className="btn btn-lg btn-block">{children}</button>
     </ButtonStyle>
   );
 };

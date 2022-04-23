@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-export const HeaderStyleCadastro = styled.div`
+export const HeaderStyle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
 
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 
   img {
-    height: 5.5rem;
+    height: 3rem;
 
     margin-top: 15px;
   }

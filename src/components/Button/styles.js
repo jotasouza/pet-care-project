@@ -6,13 +6,13 @@ export const ButtonStyle = styled.div`
   text-align: center;
   cursor: pointer;
 
-  span {
-    color: var(--color-fourth);
-    font-size: 0.8em;
-    font-weight: bold;
-  }
-
   &:hover {
     filter: brightness(85%);
+  }
+
+  .btn {
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--color-fourth);
   }
 `;

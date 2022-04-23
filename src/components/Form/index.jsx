@@ -35,7 +35,7 @@ const FormCadastro = () => {
           className="form-control form-control-lg mb-3"
           placeholder="Data de nascimento"
         />
-        <Button />
+        <Button>Finalizar Pedido</Button>
       </div>
     </FormStyleCadastro>
   );
