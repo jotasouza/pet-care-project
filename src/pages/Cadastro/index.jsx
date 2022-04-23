@@ -10,7 +10,7 @@ const Cadastro = () => {
     <div className="container-fluid h-100 bg__primary">
       <HeaderCadastro />
       <div className="row">
-        <div className="col-6 text-right my-auto">
+        <div className="col-5 text-right my-auto ms-5">
           <img src={IllustrationOne} alt="Ilustração" className="img-fluid" />
         </div>
         <div className="col-6">

@@ -9,10 +9,35 @@ export const FormStyleCadastro = styled.div`
   border-radius: 5px;
   display: inline-block;
   padding: 25px;
+  width: 460px;
+
+  margin-left: 85px;
 
   h2 {
     color: var(--font-color-primary);
     text-align: center;
     margin-bottom: 1em;
+    font-size: 1.5em;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"] {
+    font-size: 15px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  input[type="text"] :disabled,
+  input[type="email"] :disabled,
+  input[type="password"] :disabled,
+  input[type="date"] :disabled {
+    background: #f6f5f5;
+    border: 0.5px solid #dcdcdc;
+    outline: none;
+    color: #626264;
   }
 `;

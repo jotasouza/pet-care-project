@@ -7,7 +7,7 @@ import Button from "../Button";
 const FormCadastro = () => {
   return (
     <FormStyleCadastro>
-      <div className="col-8">
+      <div className="col-12">
         <h2>Falta pouco para fazer seu pet feliz!</h2>
 
         <input

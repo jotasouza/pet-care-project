@@ -8,6 +8,8 @@ export const ButtonStyle = styled.div`
 
   span {
     color: var(--color-fourth);
+    font-size: 0.8em;
+    font-weight: bold;
   }
 
   &:hover {

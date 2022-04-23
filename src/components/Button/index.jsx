@@ -5,7 +5,7 @@ const Button = () => {
   return (
     <ButtonStyle>
       <button className="btn btn-lg btn-block">
-        <span>Enviar</span>
+        <span>Finalizar Pedido</span>
       </button>
     </ButtonStyle>
   );

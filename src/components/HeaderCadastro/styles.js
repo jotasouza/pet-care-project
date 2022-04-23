@@ -8,7 +8,7 @@ export const HeaderStyleCadastro = styled.div`
   margin-bottom: 28px;
 
   img {
-    height: 5rem;
+    height: 5.5rem;
 
     margin-top: 15px;
   }
